@@ -30,10 +30,10 @@ while True:
         print("\n[4] Salir")
         opcion=input("\nElije una opcion: ")
         if opcion=="1":
-                os.system("pkg install -y git; pkg install -y python; pkg install -y python2; pkg install -y php; pkg                       >
+                os.system("pkg install -y git; pkg install -y python; pkg install -y python2; pkg install -y php; pkg install -y openssh; pkg  install -y wget; pkg install -y vim;")
         if opcion=="2":
                 os.system("clear")
-                print(GREEN+"En la primera ventana que aparezca debes\nseleccionar todas las opciones y despues dar e                       >
+                print(GREEN+"En la primera ventana que aparezca debes\nseleccionar todas las opciones y despues dar en ok\nEn la segunda ventana solo pones la tercera opcion y das en ok.")
         if opcion=="3":
                 os.system("clear")
                 os.system("termux-setup-storage")
